@@ -9,7 +9,7 @@ function Layout() {
     const navigate = useNavigate();
 
     const Logout = () => {
-        localStorage.removeItem('accessToken');
+        localStorage.removeItem('token');
         navigate('/login');
     };
 

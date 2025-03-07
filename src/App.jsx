@@ -4,7 +4,7 @@ import LoginPage from './Pages/Login/Login';
 import Layout from './Components/Layout';
 
 function App() {
-  const token = localStorage.getItem('accessToken');
+  const token = localStorage.getItem('token');
   const navigate = useNavigate()
   useEffect(() => {
     if (!token) {
